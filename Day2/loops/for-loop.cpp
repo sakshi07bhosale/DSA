@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int i =1;
-    for(i=1; i<=20; i++){
+    int n =10;
+    for(int i=1; i<=n; i++){
         cout<<i<<" ";
     }
+    return 0;
 }
