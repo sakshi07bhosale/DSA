@@ -1,0 +1,9 @@
+operator                  precedence
+1) !,+,-(unary operator)  --> R to L
+2) *,/,%                  --> L to R
+3) +,-                    --> L to R
+4) <,<=,>,>=              --> L to R
+5) ==,!=                  --> L to R
+6) &&                     --> L to R
+7) ||                     --> L to R
+8) =(assignment operator) --> R to L
